@@ -1,0 +1,43 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Geneva, Arial, sans-serif;
+  /* "Helvetica-Light", "Helvetica Neue Light", */
+  font-weight: 400;
+}
+
+/* intro (around title) */
+
+#intro {
+  align-items: center;
+  display: flex;
+  /* border color contrast gradient */
+  justify-content: center;
+  padding-bottom: 1%;
+}
+
+#app-controls {
+  padding-top: 1%;
+}
+
+
+/* title (northrop grumman)
+
+#title {
+  align-self: center;
+  background-color: inherit;
+  color: #FFFFFF;
+  font-size: 4em;
+  font-weight: bold;
+  padding-top: .5%;
+}
+*/
+
+/* workflow name
+
+#workflow-name {
+  margin-bottom: -13%;
+  margin-top: 5%;
+  font-size: 2em;
+  text-align: center;
+  text-decoration: underline;
+}
+*/

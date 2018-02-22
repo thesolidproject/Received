@@ -1,0 +1,19 @@
+<!--
+<div id="intro">
+	<h2 id="title">Northrop Grumman</h2>
+	<div id="workflow-name">
+		<span>{{ meta?.name }}</span>
+	</div>
+</div>
+-->
+<div id="tooltip" class="hidden">
+  <p><strong>Description: </strong></p>
+  <p><span id="value"></span></p>
+  <p><strong>Progress: </strong></p>
+  <p><span id="progress"></span></p>
+</div>
+<!-- <div id="workflow-name">
+  <span>{{ meta?.name }}</span>
+</div> -->
+
+<div  (window:resize)="onResize($event)" #tree ></div>

@@ -1,0 +1,14 @@
+<div id="app-controls">
+  <app-widgetcontrols></app-widgetcontrols>
+</div>
+<!-- <div id="intro">
+  <h2 id="title">Northrop Grumman</h2>
+</div> -->
+
+<div id="flourish" *ngIf="layout == 'flourish'">
+  <app-workflowtree *ngIf="wfdata" [data]="wfdata"></app-workflowtree>
+</div>
+
+<div id="simpletree" *ngIf="layout == 'simple'">
+  <app-simpletree *ngIf="wfdata" [data]="wfdata"></app-simpletree>
+</div>

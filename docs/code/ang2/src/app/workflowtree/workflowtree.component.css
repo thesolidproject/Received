@@ -1,0 +1,190 @@
+/* workflow nodes */
+
+.node {
+  cursor: pointer;
+}
+
+.node circle {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+.node text {
+  /*font: 14px sans-serif;*/
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 1.5px;
+}
+
+.node rect {
+  fill: none;
+  stroke: #636363;
+  stroke-width: 1.5px;
+}
+
+#state-name {
+  font-size: 1.1em;
+}
+
+#state-schedule {
+  font-family: "FontAwesome";
+  font-size: 2em;
+}
+
+#state-cost {
+  fill: green;
+  font-family: "FontAwesome";
+  font-size: 1.1em;
+  /*margin: 20%;*/
+}
+
+
+/* intro (around title) */
+
+#intro {
+  /*align-items: center;
+  display: flex;*/
+  border-bottom: solid;
+  border-color: #fff6e4;
+  border-bottom-width: thin;
+  /* border color contrast gradient */
+  justify-content: center;
+  margin-bottom: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+}
+
+
+/* title (northrop grumman)*/
+
+#title {
+  align-self: center;
+  background-color: inherit;
+  color: #FDFDFE;
+  font-size: 4em;
+  font-weight: bold;
+  padding-top: 5%;
+}
+
+
+/* workflow name */
+
+#workflow-name {
+  align-self: center;
+  background-color: inherit;
+  color: #FDFDFE;
+  /*margin-bottom: -13%;*/
+  margin-top: 2.5%;
+  font-size: 2.5em;
+  /*text-align: center;*/
+  text-decoration: underline;
+  fill: none;
+  stroke: #636363;
+  stroke-width: 2.5px;
+}
+
+.current-state {
+  fill: none;
+  stroke: #05d1ff;
+  stroke-width: 5px;
+}
+
+#state-name {
+  font-weight: 900;
+}
+
+#state-schedule {
+  font-family: "FontAwesome";
+  font-size: 1em;
+}
+
+#state-cost {
+  fill: green;
+  font-family: "FontAwesome";
+  font-size: 1.5em;
+  /*margin: 20%;*/
+}
+
+#tooltip {
+  position: absolute;
+  width: 200px;
+  height: auto;
+  padding: 10px;
+  background: rgba(232, 232, 232, 0.9);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+  pointer-events: none;
+}
+
+#tooltip.hidden {
+  display: none;
+}
+
+#tooltip p {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Geneva, Arial, sans-serif;
+  font-size: 16px;
+  color: #000;
+  line-height: 20px;
+}
+
+.modal-header {
+  /*
+	align-items: center;
+	display: flex;
+  justify-content: center;
+	*/
+  font-family: "Helvetica Neue", Helvetica, Geneva, Arial, sans-serif;
+  font-size: 2.5em;
+  text-align: center;
+  visibility: hidden;
+}
+
+.modal-dialog {
+  font-family: "Helvetica Neue", Helvetica, Geneva, Arial, sans-serif;
+}
+
+.modal-body {
+  border-color: black;
+}
+
+.description-container {
+  align-items: center;
+  display: flex;
+  font-size: 2.2em;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 2%;
+  margin-top: -5%;
+  width: 100%;
+}
+
+.modal-stateID {
+  font-weight: bold;
+}
+
+.stateMeta {
+  align-items: center;
+  display: flex;
+  font-size: 1.8em;
+  justify-content: center;
+}
+
+.first-col {
+  list-style-type: none;
+  margin-right: 2%;
+}
+
+.second-col {
+  list-style-type: none;
+  /*padding-left: %;*/
+  margin-left: 2%;
+}

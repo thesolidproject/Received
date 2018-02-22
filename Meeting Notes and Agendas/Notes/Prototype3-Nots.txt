@@ -1,0 +1,18 @@
+Northrop Grumman Meeting Notes: 19 Wednesday 2017
+
+Documentation -
+	-	Translate over to WIKI format
+	-	Markdown Preferable
+	-	Page Based
+
+Frameworks -
+	-	(look into) Switch to angular2!
+
+Design Specs -
+	-	Configurable (modal window)
+	-	Interact outside of current state
+	-	Expanded collapsed notification
+	-	Which nodes have children
+	-	16 nodes will be first test
+	-	No (minor) details just color
+	-	Zoomable - automatically scale down objects so they all fit

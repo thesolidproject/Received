@@ -1,0 +1,55 @@
+{
+        "id": "100",
+        "rev": 0,
+        "iteration": 0,
+        "percentcomplete": 50,
+        "start": "1 / 1 / 2001 13:00",
+        "end": "",
+        "actualhours": 2,
+        "plannedhours": 4,
+        "name": "Start",
+        "desc": "description",
+        "schedule": "S1",
+        "cost": "C2",
+        "quality": "Q3",
+
+    "children": [{
+        "id": "101",
+        "rev": 0,
+        "iteration": 0,
+        "percentcomplete": 50,
+        "start": "1 / 1 / 2001 13:00",
+        "end": "",
+        "actualhours": 2,
+        "plannedhours": 4,
+        "name": "WIP",
+        "desc": "description",
+        "schedule": "S2",
+        "cost": "C1",
+        "quality": "Q2",
+        "children": [{
+                "id": "102",
+                "rev": 0,
+                "iteration": 0,
+                "percentcomplete": 50,
+                "start": "1 / 1 / 2001 13:00",
+                "end": "",
+                "actualhours": 2,
+                "plannedhours": 4,
+                "name": "Final State",
+                "desc": "description",
+                "schedule": "S3",
+                "cost": "C3",
+                "quality": "Q4"
+            },
+            {
+                "id": "103",
+                "name": "test",
+                "desc": "description",
+                "schedule": "S4",
+                "cost": "C3",
+                "quality": "Q1"
+            }
+        ]
+    }]
+}

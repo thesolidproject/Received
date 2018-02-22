@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-image: linear-gradient(#0072C6, #fff6e4);
+  font-family: "Helvetica Neue", Helvetica, Geneva, Arial, sans-serif;
+  /* "Helvetica-Light", "Helvetica Neue Light", */
+  font-weight: 400;
+}

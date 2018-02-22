@@ -1,0 +1,6 @@
+*.DS_Store
+*.remote-sync.json
+*.xds
+*.icloud
+*.idea
+*.sencha

@@ -1,0 +1,41 @@
+body {
+   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+   /* "Helvetica-Light", "Helvetica Neue Light", */
+   font-weight: 400;
+}
+
+#title {
+   color: #0072C6;
+   font-weight: bold;
+   text-align: center;
+}
+
+.node {
+   cursor: pointer;
+
+	circle {
+	   fill: #fff;
+	   stroke: steelblue;
+	   stroke-width: 1.5px;
+	}
+}
+
+.found {
+   fill: #ff4136;
+   stroke: #ff4136;
+}
+
+.node text #schedule{
+	//font-family: "Lucida Grande";
+	color: blue;
+}
+
+.node text {
+   font: 10px "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.link {
+   fill: none;
+   stroke: #ccc;
+   stroke-widgth: 1.5px;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Workflow Widget</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/workflow.css">
+	<link rel="stylesheet" href="sources/font-awesome/css/font-awesome.min.css">
+	<script src="sources/angular/angular.min.js"></script>
+	<script type="text/javascript" src="sources/jquery/jquery-3.2.1.min.js"></script>
+
+	<!-- cdn source includes for testing
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.4/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    -->
+
+</head>
+
+<body data-ng-app="WorkflowWidget" data-ng-controller="treeCrtl">
+	<h2 id="title">Northrop Grumman</h2>
+	<h3 style="text-align:center">Workflow ID: {{ workflowmeta.id }} </h3>
+	<h4 style="text-align:center"> {{ workflowmeta.name }} </h4>
+	<h4 style="text-align:center"> {{ workflowmeta.desc }} </h4>
+
+	<div class="btn-group">
+		<button type="button" ng-click="showDefault()">Show Default</button>
+		<button type="button" ng-click="showFlourish()">Show Flourish</button>
+		<button type="button" ng-click="showMeta()">Show Meta</button>
+	</div>
+	<div ng-show="viewInfo.showmeta">
+		<table class="table">
+			<tr>
+				<td>Owner: </td>
+				<td>{{ workflowmeta.owner.name }}</td>
+			</tr>
+			<tr>
+				<td>Current Status:</td>
+				<td>{{ workflowmeta.status }}</td>
+			</tr>
+			<tr>
+				<td>Start:</td>
+				<td>{{ workflowmeta.start }}</td>
+			</tr>
+			<tr>
+				<td>Percent Complete:</td>
+				<td>{{ workflowmeta.percentcomplete }}</td>
+			</tr>
+		</table>
+	</div>
+
+	<div class="container">
+		<work-default ng-show="viewInfo.showDefault" tree="tree"></work-default>
+		<work-flourish ng-show="viewInfo.showFlourish" tree="tree"></work-flourish>
+	</div>
+	<script src="app.js"></script>
+
+</body>
+
+</html>

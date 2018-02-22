@@ -1,0 +1,26 @@
+{
+  "name": "workflow-widget",
+  "version": "1.0.0",
+  "description": "A workflow widget for NG",
+  "main": "app.js",
+  "dependencies": {
+    "angular": "^1.6.4",
+    "jquery": "^3.2.1",
+    "bootstrap": "^3.3.7",
+    "ajax": "^0.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jstngoulet/vorteksolutions.git"
+  },
+  "author": "Mikal Callahan, Chris Larsen, Brock Corbett, Justin Goulet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jstngoulet/vorteksolutions/issues"
+  },
+  "homepage": "https://github.com/jstngoulet/vorteksolutions#readme"
+}
