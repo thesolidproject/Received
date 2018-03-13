@@ -20,11 +20,20 @@ export class WidgetcontrolsComponent implements OnInit {
   }
 
   showSimple() {
-    console.log('simple');
     this.wfs.change('simple');
   }
   showFlourish() {
     this.wfs.change('flourish');
   }
 
+  toggleAdminState () {
+    this.adminState = !this.adminState;
+    if(this.adminState) {
+        window.alert("Admin mode on.");
+        return this.adminState;
+    } else {
+        window.alert("Admin mode off.")
+        return this.adminState;
+    }
+  }
 }
