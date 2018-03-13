@@ -16,6 +16,8 @@ import { BootstrapModalModule } from 'angular2-modal/plugins/bootstrap';
 import { GaugeModule } from 'ng-gauge';
 import { SimpletreeComponent } from './simpletree/simpletree.component';
 import { WidgetcontrolsComponent } from './widgetcontrols/widgetcontrols.component';
+import { BootstrapSwitchModule } from 'angular2-bootstrap-switch'; // addd for bootstrap toggle switch
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations'; // added for bootstrap toggle switch
 // test
 @NgModule({
   declarations: [
@@ -34,7 +36,9 @@ import { WidgetcontrolsComponent } from './widgetcontrols/widgetcontrols.compone
     ButtonsModule.forRoot(),
     AlertModule.forRoot(),
     ModalModule.forRoot(),
-    BootstrapModalModule
+    BootstrapModalModule,
+    BootstrapSwitchModule.forRoot(), // added for bootstrap toggle switch
+    BrowserAnimationsModule // added for bootstrap toggle switch
   ],
 
   providers: [D3Service, WorkflowService, BackendRequestClass,
