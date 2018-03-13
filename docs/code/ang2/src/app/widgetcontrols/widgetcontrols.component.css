@@ -17,8 +17,13 @@
 
 #companyLogo {
   background-color: inherit;
-  color: #FDFDFE;
+  color: ##337ab7;
   font-size: 1.5em;
   margin-left: 1.8%;
   margin-right: auto;
+}
+
+#adminSwitch {
+  margin-left: auto;
+  margin-right: 2%;
 }
