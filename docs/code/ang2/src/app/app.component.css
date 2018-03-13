@@ -16,11 +16,11 @@
   flex-direction: row;
   min-height: 100%;
   width: 100%;
-  background-image: linear-gradient(#0072C6, #043c66);
-  box-shadow: inset 0 0 100px hsla(0, 0%, 0%, .3);
+  /*background-image: linear-gradient(#0072C6, #043c66);
+  box-shadow: inset 0 0 100px hsla(0, 0%, 0%, .3);*/
+  background-color: #ffffff;
 }
 
 .flex-item {
   margin: 10px;
 }
-
